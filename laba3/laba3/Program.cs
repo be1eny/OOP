@@ -44,7 +44,7 @@ namespace laba3
                 idS = 112233;
                 nameS = "Война и Мир";
                 authorS = "Булгаков";
-                publishS = "2012год";
+                publishS = "2012";
                 pagesS = 1430;
                 costS = 25;
                 bindtypeS = "Твердый";
@@ -58,7 +58,7 @@ namespace laba3
                 idP = 123123;
                 nameP = x;
                 authorP = "Лермонтов";
-                publishP = "2011год";
+                publishP = "2011";
                 costP = 25;
                 bindtypeP = "Твердый";
                 count++;
@@ -80,16 +80,18 @@ namespace laba3
 
                 nameP = z;
                 authorP = "Пушкин";
-                publishP = "2010год";
+                publishP = "2010";
                 costP = 25;
                 bindtypeP = v;
                 count++;
 
             }
+
             public static void DisplayCounter()
             {
                 Console.WriteLine($"Создано {count} объектов ");
             }
+
             public void GetInfo1()
             {
                 Console.WriteLine($"-----------------------------------\n" +
