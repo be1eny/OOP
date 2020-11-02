@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{1FAB5C44-500C-4E07-9224-F37CF43330DA}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="laba4/Program.cs">
     <Files>
-      <File FileName="laba4/Program.cs" Line="16" Column="61" />
+      <File FileName="laba4/Program.cs" Line="40" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,5 +21,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.laba4 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.laba4 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

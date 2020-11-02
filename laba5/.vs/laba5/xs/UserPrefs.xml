@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{A83E2B4F-344F-43A1-AB97-53D6E205F8CB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="laba5/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="laba5/Class1.cs">
     <Files>
-      <File FileName="laba5/Program.cs" Line="166" Column="37" />
+      <File FileName="laba5/Program.cs" Line="4" Column="19" />
+      <File FileName="laba5/mono_crash.11a6748113.0.json" Line="1" Column="1" />
+      <File FileName="laba5/Class1.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="laba5" expanded="True">
             <Node name="laba5" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Class1.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -16,7 +18,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.laba5 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.laba5 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -4,7 +4,7 @@ namespace laba4
 {
     class MyList<T> : List<T>
     {
-        Owner Ivan = new Owner(4409, "Ivan", "MyCorp");
+        Owner Alex = new Owner(4409, "Alex", "MyCorp");
         Date date = new Date(16, 10, 2020);
 
         public static MyList<T> operator +(MyList<T> a, T b)
@@ -170,15 +170,10 @@ namespace laba4
             var nooelem = list.SearchNullElements();
             var sum = list.SearchSum();
 
-            Console.WriteLine($"Подсчет количества слов:{itmesCount}");
-
-            Console.WriteLine($"Проверка списка на нулевые элементы:{nooelem};");
-            Console.WriteLine($"Проверка на неравенство:{result};");
-            Console.WriteLine($"Сложение строк:{sum};");
-
-
-
+            Console.WriteLine($"Подсчет количества слов: {itmesCount};");
+            Console.WriteLine($"Проверка списка на нулевые элементы: {nooelem};");
+            Console.WriteLine($"Проверка на неравенство: {result};");
+            Console.WriteLine($"Сложение строк: {sum};");
         }
     }
-
 }
