@@ -1,0 +1,12 @@
+/Users/Alex/Univercity/OOP/laba7/laba7/bin/Debug/netcoreapp3.1/laba7.deps.json
+/Users/Alex/Univercity/OOP/laba7/laba7/bin/Debug/netcoreapp3.1/laba7.runtimeconfig.json
+/Users/Alex/Univercity/OOP/laba7/laba7/bin/Debug/netcoreapp3.1/laba7.runtimeconfig.dev.json
+/Users/Alex/Univercity/OOP/laba7/laba7/bin/Debug/netcoreapp3.1/laba7.dll
+/Users/Alex/Univercity/OOP/laba7/laba7/bin/Debug/netcoreapp3.1/laba7.pdb
+/Users/Alex/Univercity/OOP/laba7/laba7/obj/Debug/netcoreapp3.1/laba7.csprojAssemblyReference.cache
+/Users/Alex/Univercity/OOP/laba7/laba7/obj/Debug/netcoreapp3.1/laba7.AssemblyInfoInputs.cache
+/Users/Alex/Univercity/OOP/laba7/laba7/obj/Debug/netcoreapp3.1/laba7.AssemblyInfo.cs
+/Users/Alex/Univercity/OOP/laba7/laba7/obj/Debug/netcoreapp3.1/laba7.csproj.CoreCompileInputs.cache
+/Users/Alex/Univercity/OOP/laba7/laba7/obj/Debug/netcoreapp3.1/laba7.dll
+/Users/Alex/Univercity/OOP/laba7/laba7/obj/Debug/netcoreapp3.1/laba7.pdb
+/Users/Alex/Univercity/OOP/laba7/laba7/obj/Debug/netcoreapp3.1/laba7.genruntimeconfig.cache

@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{213D4CD9-E5DE-49CE-AA33-FBA56239C81F}|Default">
+  <MonoDevelop.Ide.ItemProperties.laba7 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="laba7/Program.cs">
+    <Files>
+      <File FileName="laba7/Program.cs" Line="30" Column="131" />
+      <File FileName="laba7/Class1.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="laba7" expanded="True">
+            <Node name="laba7" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

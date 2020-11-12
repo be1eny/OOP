@@ -11,7 +11,7 @@ namespace lab5
         static void Main(string[] args)
         {
 
-            Hunter hunter1 = new Hunter("Sam", 1743, 190, " kosa", 24);
+            Hunter hunter1 = new Hunter("Sam", 1743, 190, "kosa", 24);
             Archer archer1 = new Archer("Gos", 7312, 185, "lyk", 32, 1000);
             Shaman shaman1 = new Shaman("Trall", 3523, 215, "magic", 25);
             Psychic psychic1 = new Psychic("Sun", 4823, 170, "golos", 39, 1000);

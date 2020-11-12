@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{A83E2B4F-344F-43A1-AB97-53D6E205F8CB}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="laba5/Class1.cs">
     <Files>
-      <File FileName="laba5/Program.cs" Line="4" Column="19" />
-      <File FileName="laba5/mono_crash.11a6748113.0.json" Line="1" Column="1" />
-      <File FileName="laba5/Class1.cs" Line="1" Column="1" />
+      <File FileName="laba5/Program.cs" Line="7" Column="15" />
+      <File FileName="laba5/Class1.cs" Line="280" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
