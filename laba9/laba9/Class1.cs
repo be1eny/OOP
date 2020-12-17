@@ -106,8 +106,8 @@ namespace Delegate
         }
         public static string Delet(string str)
         {
-            int del = 13;
-            str = str.Remove(del, 1);
+            int del = 11;
+            str = str.Remove(del, 3);
             return str;
         }
         public static void AddLetter(string str, char letter)

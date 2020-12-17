@@ -17,7 +17,7 @@ namespace laba7
                 Console.WriteLine("---------------------------------------------------------------------");
                 try
                 {
-                    Waybill first_waybill = new Waybill("Накладная на машину", new DateTime(2020, 11, 12), first_client, new Organization("С"), 7800, 1);
+                    Waybill first_waybill = new Waybill("Накладная 1", new DateTime(2020, 11, 05), first_client, new Organization("111"), 7800, 0);
                 }
                 catch (IsNotNameOfOrganization ex)
                 {
@@ -27,7 +27,7 @@ namespace laba7
 
                 try
                 {
-                    Receipt first_receipt = new Receipt("Кви", new DateTime(2020, 12, 08), first_client, new Organization("Минский КХП"), 650, 2);
+                    Receipt first_receipt = new Receipt("Накладная 2", new DateTime(2020, 11, 05), first_client, new Organization("222"), 7800, 1);
                 }
                 catch (IsNotTitle ex)
                 {
@@ -37,7 +37,7 @@ namespace laba7
 
                 try
                 {
-                    Check first_check = new Check("Чек за оплату мобильного телефона ", new DateTime(2019, 11, 15), first_client, new Organization("А1"), 50, 3);
+                    Check first_check = new Check("Накладная 3", new DateTime(2020, 11, 05), first_client, new Organization("333"), 7800, 1);
                 }
                 catch (WrongIdValue ex)
                 {
@@ -45,9 +45,9 @@ namespace laba7
                 }
                 Console.WriteLine("---------------------------------------------------------------------");
 
-                Waybill second_waybill = new Waybill("Накладная на стиральную машину", new DateTime(2013, 03, 15), first_client, new Organization("Atlant"), 1200, 0);
-                Waybill third_waybill = new Waybill("Накладная на мобильный телефон", new DateTime(2014, 02, 10), first_client, new Organization("АЛЛО"), 800, 5);
-                Waybill fours_waybill = new Waybill("Накладная на машину", new DateTime(2020, 07, 12), first_client, new Organization("Пограничная служба"), 1200, 6);
+                Waybill second_waybill = new Waybill("Накладная 1", new DateTime(2020, 11, 05), first_client, new Organization("111"), 7800, 0);
+                Waybill third_waybill = new Waybill("Накладная 2", new DateTime(2020, 11, 05), first_client, new Organization("222"), 7800, 1);
+                Waybill fours_waybill = new Waybill("Накладная 3", new DateTime(2020, 11, 05), first_client, new Organization("333"), 7800, 1);
 
                 Document[] documents = new Document[] { second_waybill, third_waybill, fours_waybill };
 

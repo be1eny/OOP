@@ -127,7 +127,7 @@ namespace laba7
         private string name;
         public Client(string name)
         {
- this.name = name;
+            this.name = name;
         }
         public string Name
         {

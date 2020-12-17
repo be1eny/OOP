@@ -22,7 +22,7 @@ namespace laba8
                 CollectionType<int> mass1 = new CollectionType<int>() { abc = { 1, 6, 4, 7, 9, 3 } };
                 CollectionType<int> mass2 = new CollectionType<int>() { abc = { 6, 1, 7, 5 } };
                 mass2.add(mass1, mass2);
-                string way = @"D:\ФИТ\2ой курс\ООП\Лабораторные\lab8\text.txt";
+                string way = @"/Users/Alex/Univercity/OOP/laba8/laba8/text.txt";
                 using (StreamWriter file = new StreamWriter(way))
                 {
                     foreach (int i in mass2.abc)

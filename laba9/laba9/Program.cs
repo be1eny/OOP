@@ -19,8 +19,8 @@ namespace Delegate
 
             Dekan dekan = new Dekan();
 
-            Student student1 = new Student(220, "студент");
-            Undergraduate undergraduate1 = new Undergraduate(380, "магистрант");
+            Student student1 = new Student(500, "студент");
+            Undergraduate undergraduate1 = new Undergraduate(600, "магистрант");
             student1.Late();
             student1.RegisterHandler(massage);
             student1.Late();
@@ -43,7 +43,7 @@ namespace Delegate
             balance(undergraduate1);
             Console.WriteLine();
 
-            string str1 = "BeOutiful girll";
+            string str1 = "dadOda dadOda";
 
             Func<string, string> func;
             func = ChangeString.Delet;

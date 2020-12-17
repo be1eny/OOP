@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.laba8 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="laba8/Program.cs">
     <Files>
-      <File FileName="laba8/Program.cs" Line="8" Column="15" />
+      <File FileName="laba8/Program.cs" Line="59" Column="18" />
+      <File FileName="laba8/text.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

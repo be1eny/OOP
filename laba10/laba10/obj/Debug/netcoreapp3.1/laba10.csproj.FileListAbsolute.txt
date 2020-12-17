@@ -1,0 +1,12 @@
+/Users/Alex/Univercity/OOP/laba10/laba10/bin/Debug/netcoreapp3.1/laba10.deps.json
+/Users/Alex/Univercity/OOP/laba10/laba10/bin/Debug/netcoreapp3.1/laba10.runtimeconfig.json
+/Users/Alex/Univercity/OOP/laba10/laba10/bin/Debug/netcoreapp3.1/laba10.runtimeconfig.dev.json
+/Users/Alex/Univercity/OOP/laba10/laba10/bin/Debug/netcoreapp3.1/laba10.dll
+/Users/Alex/Univercity/OOP/laba10/laba10/bin/Debug/netcoreapp3.1/laba10.pdb
+/Users/Alex/Univercity/OOP/laba10/laba10/obj/Debug/netcoreapp3.1/laba10.csprojAssemblyReference.cache
+/Users/Alex/Univercity/OOP/laba10/laba10/obj/Debug/netcoreapp3.1/laba10.AssemblyInfoInputs.cache
+/Users/Alex/Univercity/OOP/laba10/laba10/obj/Debug/netcoreapp3.1/laba10.AssemblyInfo.cs
+/Users/Alex/Univercity/OOP/laba10/laba10/obj/Debug/netcoreapp3.1/laba10.csproj.CoreCompileInputs.cache
+/Users/Alex/Univercity/OOP/laba10/laba10/obj/Debug/netcoreapp3.1/laba10.dll
+/Users/Alex/Univercity/OOP/laba10/laba10/obj/Debug/netcoreapp3.1/laba10.pdb
+/Users/Alex/Univercity/OOP/laba10/laba10/obj/Debug/netcoreapp3.1/laba10.genruntimeconfig.cache
