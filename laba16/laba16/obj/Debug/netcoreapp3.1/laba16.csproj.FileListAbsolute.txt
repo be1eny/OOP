@@ -1,0 +1,12 @@
+/Users/Alex/Univercity/OOP/laba16/laba16/bin/Debug/netcoreapp3.1/laba16.deps.json
+/Users/Alex/Univercity/OOP/laba16/laba16/bin/Debug/netcoreapp3.1/laba16.runtimeconfig.json
+/Users/Alex/Univercity/OOP/laba16/laba16/bin/Debug/netcoreapp3.1/laba16.runtimeconfig.dev.json
+/Users/Alex/Univercity/OOP/laba16/laba16/bin/Debug/netcoreapp3.1/laba16.dll
+/Users/Alex/Univercity/OOP/laba16/laba16/bin/Debug/netcoreapp3.1/laba16.pdb
+/Users/Alex/Univercity/OOP/laba16/laba16/obj/Debug/netcoreapp3.1/laba16.csprojAssemblyReference.cache
+/Users/Alex/Univercity/OOP/laba16/laba16/obj/Debug/netcoreapp3.1/laba16.AssemblyInfoInputs.cache
+/Users/Alex/Univercity/OOP/laba16/laba16/obj/Debug/netcoreapp3.1/laba16.AssemblyInfo.cs
+/Users/Alex/Univercity/OOP/laba16/laba16/obj/Debug/netcoreapp3.1/laba16.csproj.CoreCompileInputs.cache
+/Users/Alex/Univercity/OOP/laba16/laba16/obj/Debug/netcoreapp3.1/laba16.dll
+/Users/Alex/Univercity/OOP/laba16/laba16/obj/Debug/netcoreapp3.1/laba16.pdb
+/Users/Alex/Univercity/OOP/laba16/laba16/obj/Debug/netcoreapp3.1/laba16.genruntimeconfig.cache
