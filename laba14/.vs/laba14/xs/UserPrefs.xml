@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{FF783000-5E07-4765-BF5D-7712FC9D2512}|Default">
   <MonoDevelop.Ide.ItemProperties.laba14 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="laba14/Class2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="laba14/Program.cs">
     <Files>
       <File FileName="laba14/Program.cs" Line="23" Column="15" />
       <File FileName="laba14/Class1.cs" Line="3" Column="15" />
@@ -11,7 +11,7 @@
         <State name="__root__">
           <Node name="laba14" expanded="True">
             <Node name="laba14" expanded="True">
-              <Node name="Class2.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{1B21556C-FD7F-477B-BA16-A64159474FEB}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="laba11/Program.cs">
     <Files>
-      <File FileName="laba11/Program.cs" Line="7" Column="17" />
+      <File FileName="laba11/Program.cs" Line="12" Column="10" />
+      <File FileName="laba11/Class1.cs" Line="7" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +17,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.laba11 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.laba11 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

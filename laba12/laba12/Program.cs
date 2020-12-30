@@ -131,7 +131,7 @@ namespace laba12
         public static void CallMethod(string className, string methodName)
         {
             Type type = Type.GetType(className);
-            List<string> FirstParam = File.ReadAllLines(@"D:\ФИТ\2ой курс\ООП\Лабораторные\lab12\Refl.txt").ToList();
+            List<string> FirstParam = File.ReadAllLines(@"/Users/Alex/Univercity/OOP/laba12/laba12/Refl.txt").ToList();
             List<string>[] parametrs = new List<string>[] { FirstParam };
             try
             {
@@ -158,14 +158,14 @@ namespace laba12
     {
         static void Main(string[] args)
         {
-            Reflector.ClName("lab12.Test");
-            Reflector.GetConstructor("lab12.Test");
-            Reflector.Publi("lab12.Test");
-            Reflector.Field("lab12.Test");
-            Reflector.Interface("lab12.Test");
-            Reflector.MethodForType("lab12.Test", "Int32");
-            Reflector.CallMethod("lab12.Test", "ToConsole");
-            Reflector.Create("lab12.Test", "Alina FIT");
+            Reflector.ClName("laba12.Test");
+            Reflector.GetConstructor("laba12.Test");
+            Reflector.Publi("laba12.Test");
+            Reflector.Field("laba12.Test");
+            Reflector.Interface("laba12.Test");
+            Reflector.MethodForType("laba12.Test", "Int32");
+            Reflector.CallMethod("laba12.Test", "ToConsole");
+            Reflector.Create("laba12.Test", "Alex FIT");
         }
     }
 }
