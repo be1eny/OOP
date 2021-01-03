@@ -28,7 +28,7 @@ namespace laba15
             }
             return result;
         }
-        public static void Operation()
+        public static void Operation() //метод операции
         {
             int n = 100;
             for (int i = 2; i <= n; i++)
@@ -40,16 +40,16 @@ namespace laba15
                 }
             }
         }
-        public static void Event()
+        public static void Event() //метод события
         {
             for (int i = 2; i < 100; i += 2)
             {
-                Thread.Sleep(100);
+                Thread.Sleep(100); //время сна потока
                 Console.WriteLine(i);
             }
             Thread.Sleep(20);
         }
-        public static void NEvent()
+        public static void NEvent() //метод нет события
         {
             for (int i = 1; i < 100; i += 2)
             {
@@ -58,7 +58,7 @@ namespace laba15
             }
             Thread.Sleep(20);
         }
-        public static void Count(object obj)
+        public static void Count(object obj) //метод количество
         {
             int x = (int)obj;
             for (int i = 1; i < 9; i++, x++)
@@ -73,7 +73,7 @@ namespace laba15
             {
                 foreach (Process p in Process.GetProcesses())
                 {
-                    sw.WriteLine("Id " + p.Id);
+                    sw.WriteLine("Id " + p.Id); //вывод инфомации о потоках 
                     sw.WriteLine("Name " + p.ProcessName);
                     sw.WriteLine("Priority " + p.BasePriority);
                     sw.WriteLine("Responding " + p.Responding);
@@ -110,7 +110,7 @@ namespace laba15
                     Console.WriteLine(i);
                 }
             }
-            Thread.Sleep(1000);
+            Thread.Sleep(1000); //сон 1000 мс
 
             Thread th1 = new Thread(new ThreadStart(Event));
             Thread th2 = new Thread(new ThreadStart(NEvent));
@@ -118,7 +118,7 @@ namespace laba15
             th1.Start();
             th2.Start();
 
-            Console.ReadLine();
+            Console.ReadLine(); //чтение строки
             int num = 0;
             TimerCallback tm = new TimerCallback(Count);
             Timer timer = new Timer(tm, num, 0, 2000);

@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{CBCEFCB2-0BB5-4F11-A1BE-2669B381A09B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="laba12/Program.cs">
     <Files>
-      <File FileName="laba12/Program.cs" Line="168" Column="50" />
+      <File FileName="laba12/Program.cs" Line="149" Column="83" />
+      <File FileName="laba12/Refl.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

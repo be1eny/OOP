@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace laba12
 {
-    public interface Show
+    public interface Show //интерфейс
     {
         void Show();
     }
     public class Test : Show
     {
         public string name;
-        public Test(string name)
+        public Test(string name) //строка имени
         {
             this.name = name;
         }
@@ -24,11 +24,11 @@ namespace laba12
         {
             this.name = null;
         }
-        public void Show()
+        public void Show() //вывод имени
         {
             Console.WriteLine(name);
         }
-        public void ToConsole(List<string> spisok)
+        public void ToConsole(List<string> spisok) //вывод в консоль
         {
             foreach (string str in spisok)
             {
@@ -51,9 +51,9 @@ namespace laba12
             }
         }
     }
-    static class Reflector
+    static class Reflector //класс рефлексии
     {
-        static public void ClName(string classname)
+        static public void ClName(string classname) //класс вывода сборки
         {
             Assembly tekushchayaAssembly = Assembly.GetExecutingAssembly();
             Type t = tekushchayaAssembly.GetType(classname);
@@ -64,7 +64,7 @@ namespace laba12
             Console.WriteLine("Расположение сборки: ");
             Console.WriteLine(assem.CodeBase);
         }
-        static public void GetConstructor(string classname)
+        static public void GetConstructor(string classname) //класс показывающий конструкторы
         {
             ConstructorInfo[] p = Type.GetType(classname).GetConstructors();
             Console.WriteLine();
@@ -74,7 +74,7 @@ namespace laba12
             else
                 Console.WriteLine("Нет!");
         }
-        static public void Publi(string classname)
+        static public void Publi(string classname) //класс показывающий методы
         {
             Type t = Type.GetType(classname);
             Console.WriteLine();
@@ -84,7 +84,7 @@ namespace laba12
                 Console.WriteLine(cMethod.Name);
             }
         }
-        static public void Field(string classname)
+        static public void Field(string classname) //класс показывающий поля
         {
             Type t = Type.GetType(classname);
             Console.WriteLine();
@@ -100,7 +100,7 @@ namespace laba12
                 Console.WriteLine(pInfo.PropertyType.Name + " " + pInfo.Name);
             }
         }
-        static public void Interface(string classname)
+        static public void Interface(string classname) //класс показывающий интерфейсы
         {
             Type t = Type.GetType(classname);
             Console.WriteLine();
@@ -110,7 +110,7 @@ namespace laba12
                 Console.WriteLine(tp.Name);
             }
         }
-        static public void MethodForType(string classname, string parametr)
+        static public void MethodForType(string classname, string parametr) //класс показывающий методы с определенным типом
         {
             Type t = Type.GetType(classname);
             MethodInfo[] methods = t.GetMethods();
@@ -128,7 +128,7 @@ namespace laba12
                 }
             }
         }
-        public static void CallMethod(string className, string methodName)
+        public static void CallMethod(string className, string methodName) //класс выполнения метода
         {
             Type type = Type.GetType(className);
             List<string> FirstParam = File.ReadAllLines(@"/Users/Alex/Univercity/OOP/laba12/laba12/Refl.txt").ToList();
@@ -146,7 +146,7 @@ namespace laba12
                 Console.WriteLine(ex.Message);
             }
         }
-        static public void Create(string classname, string name)
+        static public void Create(string classname, string name) //класс создания 
         {
             Type t = Type.GetType(classname);
             ConstructorInfo[] p = Type.GetType(classname).GetConstructors();
@@ -156,9 +156,9 @@ namespace laba12
     }
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
-            Reflector.ClName("laba12.Test");
+            Reflector.ClName("laba12.Test"); //вызовы функций
             Reflector.GetConstructor("laba12.Test");
             Reflector.Publi("laba12.Test");
             Reflector.Field("laba12.Test");

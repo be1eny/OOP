@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{E8C47FFF-80DD-4985-BEAD-FD720A5173CE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="laba13/aaaa.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="laba13/Class1.cs">
     <Files>
-      <File FileName="laba13/Program.cs" Line="20" Column="44" />
-      <File FileName="laba13/Class1.cs" Line="12" Column="85" />
-      <File FileName="laba13/aaaa.txt" Line="49" Column="1" />
+      <File FileName="laba13/Program.cs" Line="13" Column="54" />
+      <File FileName="laba13/Class1.cs" Line="96" Column="94" />
+      <File FileName="laba13/aaaa.txt" Line="40" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="laba13" expanded="True">
             <Node name="laba13" expanded="True">
-              <Node name="aaaa.txt" selected="True" />
+              <Node name="Class1.cs" selected="True" />
             </Node>
           </Node>
         </State>

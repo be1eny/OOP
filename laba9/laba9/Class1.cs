@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Delegate
 {
-    public class Dekan
+    public class Dekan //класс 
     {
-        public event TakeMoney money;
+        public event TakeMoney money; //переменные класса 
         public event Promotion promotion;
-        public void newMoney()
+        public void newMoney() //метод 
         {
             Console.WriteLine("Проверяем пропуски...");
-            money?.Invoke(this, null); 
+            money?.Invoke(this, null); //метод инвоук, принимающий делегат
             Console.WriteLine("-------------------------------------------------------");
         }
-        public void ToPromote(string newPosotion)
+        public void ToPromote(string newPosotion) //метод
         {
             Console.WriteLine("Назначаем новую должность...");
             promotion?.Invoke(this, null, newPosotion);
@@ -57,7 +57,7 @@ namespace Delegate
             late?.Invoke($"Количество опозданий: {lateCounter}");
             Console.WriteLine("-------------------------------------------------------");
         }
-        public virtual void Money(object sender, EventArgs e) 
+        public virtual void Money(object sender, EventArgs e) //метод проверки кол-ва пропусков
         {
             if (lateCounter >=3)
             {
@@ -66,13 +66,13 @@ namespace Delegate
             }
             else Console.WriteLine("Допустимое количество опазданий");
         }
-        public void ToPromoteStudent(object sender, EventArgs e, string str)  
+        public void ToPromoteStudent(object sender, EventArgs e, string str) //изменение должности 
         {
             Position = str;
             Console.WriteLine($"Новая должность: {Position}");
         }
     }
-    public class Undergraduate : Student
+    public class Undergraduate : Student //наследуемый класс
     {
         public Undergraduate(int salary, string position) : base(salary, position)
         {
@@ -94,28 +94,28 @@ namespace Delegate
     }
     static public class ChangeString
     {
-        public static string SToApper(string str)
+        public static string SToApper(string str) //большие буквы
         {
             str = str.ToUpper();
             return str;
         }
-        public static string SToLower(string str)
+        public static string SToLower(string str) //маленькие буквы
         {
             str = str.ToLower();
             return str;
         }
-        public static string Delet(string str)
+        public static string Delet(string str) //удаление символа 
         {
             int del = 11;
             str = str.Remove(del, 3);
             return str;
         }
-        public static void AddLetter(string str, char letter)
+        public static void AddLetter(string str, char letter) //добавление символа 
         {
             str = str + letter;
             Console.WriteLine(str);
         }
-        public static string Oa(string str)
+        public static string Oa(string str) //изменение символа 
         {
             str = str.Replace("O", "a");
             return str;

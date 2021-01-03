@@ -9,16 +9,16 @@ namespace lab13
 {
     public static class TASLog
     {
-        public const string sourceFile = @"/Users/Alex/Univercity/OOP/laba13/laba13/aaaa.txt";        
+        public const string sourceFile = @"/Users/Alex/Univercity/OOP/laba13/laba13/aaaa.txt"; //путь к файлу       
         static TASLog() 
         {
             using (StreamWriter w = new StreamWriter(sourceFile, false)) { }
         }
         public static void WriteLine(string str)
         {
-            try
+            try //отлов ошибки
             {
-                using (StreamWriter w = new StreamWriter(sourceFile, true))
+                using (StreamWriter w = new StreamWriter(sourceFile, true)) //создание потока 
                 {
                     w.WriteLine(str);
                 }
@@ -28,9 +28,9 @@ namespace lab13
                 Console.WriteLine("Exception: " + ex.Message);
             }
         }
-        public static void SearchByString(string str)
-        {
-            using (StreamReader sr = new StreamReader(sourceFile, false))
+        public static void SearchByString(string str) //поиск по строке 
+        { 
+            using (StreamReader sr = new StreamReader(sourceFile, false)) //читатель строк
             {
                 while (!sr.EndOfStream)
                 {
@@ -48,7 +48,7 @@ namespace lab13
             DriveInfo[] drives = DriveInfo.GetDrives(); 
             foreach (DriveInfo drive in drives)
             {
-                TASLog.WriteLine("\tИмя: " + drive.Name);
+                TASLog.WriteLine("\tИмя: " + drive.Name); //вывод инфомации о диске 
                 TASLog.WriteLine("\tТип: " + drive.DriveType);
                 if (drive.IsReady)
                 {
@@ -65,11 +65,11 @@ namespace lab13
     {
         public void FileData(string path)
         {
-            TASLog.WriteLine("Информация о файле:");
+            TASLog.WriteLine("Информация о файле:"); //метод вывода инфомации о файле 
             FileInfo fileInf = new FileInfo(path);
             if (fileInf.Exists)
             {
-                TASLog.WriteLine($"\tПолный путь: {fileInf.DirectoryName}");
+                TASLog.WriteLine($"\tПолный путь: {fileInf.DirectoryName}"); 
                 TASLog.WriteLine($"\tИмя: {fileInf.Name}");
                 TASLog.WriteLine($"\tОбъем: {fileInf.Length}\n\tРасширение: {fileInf.Extension}\n\tДата создания: {fileInf.CreationTime}");
             }
@@ -83,7 +83,7 @@ namespace lab13
     {
         public void DirInfo(string dirName)
         {
-            DirectoryInfo dirInfo = new DirectoryInfo(dirName);
+            DirectoryInfo dirInfo = new DirectoryInfo(dirName); //вывод инфомации о директории 
             TASLog.WriteLine("\nИнформация о директории:");
             TASLog.WriteLine($"\tКоличество файлов: {dirInfo.GetFiles().Count()}");
             TASLog.WriteLine($"\tДата создания: {dirInfo.CreationTime}");
@@ -93,7 +93,7 @@ namespace lab13
     }
     public class TASFileManager
     {
-        public void FileManager(string path)
+        public void FileManager(string path) //метод вывода инфомации о директориях и файлах 
         {
             try
             {

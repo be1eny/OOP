@@ -10,28 +10,28 @@ using System.Threading.Tasks;
 
 namespace laba10
 {
-    public class Game<T> : IEnumerable<T> where T : Player
+    public class Game<T> : IEnumerable<T> where T : Player //наследуемый класс
     {
         public BlockingCollection<T> players = new BlockingCollection<T>();
         public Dictionary<int, T> dict = new Dictionary<int, T>();
         public Player winner;
         Random rnd = new Random();
-        public void StartGame()
+        public void StartGame() //старт игры
         {
             foreach (var item in players)
             {
                 item.number = rnd.Next(1, 1000);
             }
-            winner = players.OrderByDescending(i => i.number).First();
+            winner = players.OrderByDescending(i => i.number).First(); //операция упорядочевания 
         }
-        public void Show()
+        public void Show() //показ игроков
         {
             foreach (var item in players)
             {
                 Console.WriteLine(item);
             }
         }
-        IEnumerator IEnumerable.GetEnumerator()
+        IEnumerator IEnumerable.GetEnumerator() //получение счетчика
         {
             return this.GetEnumerator();
         }
@@ -47,16 +47,16 @@ namespace laba10
             return ((IEnumerable<T>)players).GetEnumerator();
         }
     }
-    public class Player
+    public class Player //класс игрок 
     {
-        public string name;
+        public string name; //переменные класса 
         public int number;
         public Player(string name)
         {
             this.name = name;
             this.number = 0;
         }
-        public override string ToString()
+        public override string ToString() //вывод числа игрока
         {
             return name + " создал число " + number;
         }
@@ -69,14 +69,14 @@ namespace laba10
         }
         static void Main(string[] args)
         {
-            Player firstPlayer = new Player("Леша");
+            Player firstPlayer = new Player("Леша"); //создание игроков
             Player secondPlayer = new Player("Артем");
             Player thirdPlayer = new Player("Женя");
             Player foursPlayer = new Player("Дима");
 
             Game<Player> RollGame = new Game<Player>();
 
-            RollGame.players.Add(firstPlayer);
+            RollGame.players.Add(firstPlayer); //вызовы функций 
             RollGame.players.Add(secondPlayer);
             RollGame.players.TryAdd(thirdPlayer);
             RollGame.players.TryAdd(foursPlayer);
