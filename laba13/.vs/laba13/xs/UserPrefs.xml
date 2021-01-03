@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{E8C47FFF-80DD-4985-BEAD-FD720A5173CE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="laba13/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="laba13/aaaa.txt">
     <Files>
-      <File FileName="laba13/Program.cs" Line="1" Column="1" />
+      <File FileName="laba13/Program.cs" Line="20" Column="44" />
+      <File FileName="laba13/Class1.cs" Line="12" Column="85" />
+      <File FileName="laba13/aaaa.txt" Line="49" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="laba13" expanded="True">
             <Node name="laba13" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="aaaa.txt" selected="True" />
             </Node>
           </Node>
         </State>
@@ -21,5 +23,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.laba13 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.laba13 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
