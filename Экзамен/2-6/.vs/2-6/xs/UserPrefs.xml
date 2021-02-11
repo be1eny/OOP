@@ -1,15 +1,13 @@
-﻿<Properties StartupConfiguration="{3A955E36-DDB6-40FE-A029-0C20B3F7C434}|Default">
-  <MonoDevelop.Ide.ItemProperties.laba8 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="laba8/Program.cs">
+﻿<Properties StartupConfiguration="{6B44168E-B57A-4982-87E0-A5615FD117A1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="2-6/Program.cs">
     <Files>
-      <File FileName="laba8/Program.cs" Line="50" Column="10" />
-      <File FileName="laba8/text.txt" />
+      <File FileName="2-6/Program.cs" Line="53" Column="57" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="laba8" expanded="True">
-            <Node name="laba8" expanded="True">
+          <Node name="2-6" expanded="True">
+            <Node name="2-6" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,6 +16,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.2-6 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
